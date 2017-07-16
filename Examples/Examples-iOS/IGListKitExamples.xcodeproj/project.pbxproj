@@ -96,6 +96,11 @@
 		98B4DBF41DC2937A002BA58A /* Demo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98B4DBF31DC2937A002BA58A /* Demo.storyboard */; };
 		C82AE9741251907F18F77350 /* Pods_IGListKitMessageExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7B1FA2EFFA5E994FEE587DE /* Pods_IGListKitMessageExample.framework */; };
 		CBA8F64BE2F00E8B3DEFF6ED /* Pods_IGListKitExamples.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE7316EF8201F89655D39E53 /* Pods_IGListKitExamples.framework */; };
+		D01628031F19A4140015BDA9 /* NestedHorizontalFlowLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01628021F19A4140015BDA9 /* NestedHorizontalFlowLayoutViewController.swift */; };
+		D02585451F1B8EA5000F65A6 /* EmojiGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02585441F1B8EA5000F65A6 /* EmojiGroup.swift */; };
+		D0403C261F19AEFE0065D04D /* EmojiSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0403C251F19AEFE0065D04D /* EmojiSectionController.swift */; };
+		D0403C281F19AFD70065D04D /* EmbeddedFlowCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0403C271F19AFD70065D04D /* EmbeddedFlowCollectionViewCell.swift */; };
+		D0403C2A1F19B05E0065D04D /* EmbeddedFlowSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0403C291F19B05E0065D04D /* EmbeddedFlowSectionController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -146,7 +151,7 @@
 		2926585F1E74A19F0041B56D /* DayViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayViewModel.swift; sourceTree = "<group>"; };
 		292658631E74A2550041B56D /* MonthSectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthSectionController.swift; sourceTree = "<group>"; };
 		292658651E74A49D0041B56D /* CalendarDayCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarDayCell.swift; sourceTree = "<group>"; };
-		292658671E74AE8A0041B56D /* MonthTitleViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthTitleViewModel.swift; sourceTree = "<group>"; };
+		292658671E74AE8A0041B56D /* MonthTitleViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MonthTitleViewModel.swift; path = ViewModels/MonthTitleViewModel.swift; sourceTree = "<group>"; };
 		292658691E74AEFE0041B56D /* MonthTitleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthTitleCell.swift; sourceTree = "<group>"; };
 		2942FF831D9F39E00015D24B /* DemoSectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoSectionController.swift; sourceTree = "<group>"; };
 		2942FF841D9F39E00015D24B /* EmbeddedSectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmbeddedSectionController.swift; sourceTree = "<group>"; };
@@ -241,6 +246,11 @@
 		B7B1FA2EFFA5E994FEE587DE /* Pods_IGListKitMessageExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IGListKitMessageExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B87895B5B9CB6A17AF47F4C9 /* Pods-IGListKitTodayExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGListKitTodayExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-IGListKitTodayExample/Pods-IGListKitTodayExample.release.xcconfig"; sourceTree = "<group>"; };
 		C544C2903D822EF8E4E91142 /* Pods-IGListKitExamples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGListKitExamples.release.xcconfig"; path = "Pods/Target Support Files/Pods-IGListKitExamples/Pods-IGListKitExamples.release.xcconfig"; sourceTree = "<group>"; };
+		D01628021F19A4140015BDA9 /* NestedHorizontalFlowLayoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NestedHorizontalFlowLayoutViewController.swift; sourceTree = "<group>"; };
+		D02585441F1B8EA5000F65A6 /* EmojiGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiGroup.swift; sourceTree = "<group>"; };
+		D0403C251F19AEFE0065D04D /* EmojiSectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiSectionController.swift; sourceTree = "<group>"; };
+		D0403C271F19AFD70065D04D /* EmbeddedFlowCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmbeddedFlowCollectionViewCell.swift; sourceTree = "<group>"; };
+		D0403C291F19B05E0065D04D /* EmbeddedFlowSectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmbeddedFlowSectionController.swift; sourceTree = "<group>"; };
 		F59714C01F184FD73C2AE02F /* Pods-IGListKitMessageExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGListKitMessageExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IGListKitMessageExample/Pods-IGListKitMessageExample.debug.xcconfig"; sourceTree = "<group>"; };
 		FE7316EF8201F89655D39E53 /* Pods_IGListKitExamples.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IGListKitExamples.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -311,7 +321,6 @@
 			isa = PBXGroup;
 			children = (
 				2926585F1E74A19F0041B56D /* DayViewModel.swift */,
-				292658671E74AE8A0041B56D /* MonthTitleViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -322,10 +331,12 @@
 				2942FF831D9F39E00015D24B /* DemoSectionController.swift */,
 				29D2E4AC1DD69B6000CD255D /* DisplaySectionController.swift */,
 				2942FF841D9F39E00015D24B /* EmbeddedSectionController.swift */,
+				D0403C291F19B05E0065D04D /* EmbeddedFlowSectionController.swift */,
 				2942FF851D9F39E00015D24B /* ExpandableSectionController.swift */,
 				29C6297E1DCFD9E9004A5BB1 /* FeedItemSectionController.swift */,
 				2942FF861D9F39E00015D24B /* GridSectionController.swift */,
 				2942FF871D9F39E00015D24B /* HorizontalSectionController.swift */,
+				D0403C251F19AEFE0065D04D /* EmojiSectionController.swift */,
 				2942FF881D9F39E00015D24B /* LabelSectionController.swift */,
 				29F7E2AE1E92858500197586 /* ListeningSectionController.swift */,
 				292658631E74A2550041B56D /* MonthSectionController.swift */,
@@ -395,6 +406,7 @@
 				2961B3A51D68B0B5001C9451 /* LoadMoreViewController.swift */,
 				299068271D75BFEC00A62888 /* MixedDataViewController.swift */,
 				2991F9231D7BB89F00B0C58F /* NestedAdapterViewController.swift */,
+				D01628021F19A4140015BDA9 /* NestedHorizontalFlowLayoutViewController.swift */,
 				56C05B671E49B2120026DB39 /* ObjcDemoViewController.h */,
 				56C05B681E49B2120026DB39 /* ObjcDemoViewController.m */,
 				299B53FF1D6BD6630074A202 /* SearchViewController.swift */,
@@ -418,6 +430,7 @@
 				56C05B711E49B32A0026DB39 /* CommentCell.m */,
 				29628F131D91905A0026B15A /* DetailLabelCell.swift */,
 				2991F9271D7BB9EC00B0C58F /* EmbeddedCollectionViewCell.swift */,
+				D0403C271F19AFD70065D04D /* EmbeddedFlowCollectionViewCell.swift */,
 				297546F91DD25384002A6F89 /* FullWidthSelfSizingCell.swift */,
 				2981BA341DB868A500A987F9 /* ImageCell.swift */,
 				56C05B731E49B33C0026DB39 /* InteractiveCell.h */,
@@ -446,6 +459,8 @@
 		2991F91C1D7BB30300B0C58F /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				D02585441F1B8EA5000F65A6 /* EmojiGroup.swift */,
+				292658671E74AE8A0041B56D /* MonthTitleViewModel.swift */,
 				29C6297C1DCFD8E5004A5BB1 /* FeedItem.swift */,
 				292658581E749F820041B56D /* Month.swift */,
 				295D8A9B1E92ECDE001F7C06 /* Post.h */,
@@ -822,22 +837,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				299068281D75BFEC00A62888 /* MixedDataViewController.swift in Sources */,
+				D0403C2A1F19B05E0065D04D /* EmbeddedFlowSectionController.swift in Sources */,
 				299B54001D6BD6630074A202 /* SearchViewController.swift in Sources */,
 				292658661E74A49D0041B56D /* CalendarDayCell.swift in Sources */,
 				2961B3AE1D68B0B5001C9451 /* SpinnerCell.swift in Sources */,
 				292658591E749F820041B56D /* Month.swift in Sources */,
 				296DD7591DD2174200206780 /* NibSelfSizingCell.swift in Sources */,
 				296DD7531DD2147500206780 /* SelfSizingCellsViewController.swift in Sources */,
+				D0403C281F19AFD70065D04D /* EmbeddedFlowCollectionViewCell.swift in Sources */,
 				56C05B691E49B2120026DB39 /* ObjcDemoViewController.m in Sources */,
 				2961B3B01D68B28E001C9451 /* SearchCell.swift in Sources */,
 				2942FF8C1D9F39E00015D24B /* DemoSectionController.swift in Sources */,
 				2981BA351DB868A500A987F9 /* ImageCell.swift in Sources */,
 				2942FF931D9F39E00015D24B /* SearchSectionController.swift in Sources */,
 				297546FA1DD25384002A6F89 /* FullWidthSelfSizingCell.swift in Sources */,
+				D0403C261F19AEFE0065D04D /* EmojiSectionController.swift in Sources */,
 				292658681E74AE8A0041B56D /* MonthTitleViewModel.swift in Sources */,
 				29D873561E0C539700A6BA95 /* StackedViewController.swift in Sources */,
 				82D91B691DBA0EF300E62758 /* SingleSectionStoryboardViewController.swift in Sources */,
 				29D2E4AF1DD69C0E00CD255D /* DisplayViewController.swift in Sources */,
+				D01628031F19A4140015BDA9 /* NestedHorizontalFlowLayoutViewController.swift in Sources */,
 				2942FF911D9F39E00015D24B /* LabelSectionController.swift in Sources */,
 				295D8A9D1E92ECDE001F7C06 /* Post.m in Sources */,
 				29F7E2AD1E92843A00197586 /* IncrementAnnouncer.swift in Sources */,
@@ -870,6 +889,7 @@
 				2961B3AD1D68B0B5001C9451 /* LabelCell.swift in Sources */,
 				2942FF901D9F39E00015D24B /* HorizontalSectionController.swift in Sources */,
 				292658641E74A2550041B56D /* MonthSectionController.swift in Sources */,
+				D02585451F1B8EA5000F65A6 /* EmojiGroup.swift in Sources */,
 				2981BA371DB869FF00A987F9 /* WorkingRangeSectionController.swift in Sources */,
 				292658601E74A19F0041B56D /* DayViewModel.swift in Sources */,
 				2961B3AB1D68B0B5001C9451 /* DemosViewController.swift in Sources */,

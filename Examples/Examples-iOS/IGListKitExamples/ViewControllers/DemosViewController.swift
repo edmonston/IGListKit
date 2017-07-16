@@ -31,6 +31,8 @@ final class DemosViewController: UIViewController, ListAdapterDataSource {
                  controllerClass: MixedDataViewController.self),
         DemoItem(name: "Nested Adapter",
                  controllerClass: NestedAdapterViewController.self),
+        DemoItem(name: "Nested Horizontal Flow",
+                 controllerClass: NestedHorizontalFlowLayoutViewController.self),
         DemoItem(name: "Empty View",
                  controllerClass: EmptyViewController.self),
         DemoItem(name: "Single Section Controller",
