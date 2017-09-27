@@ -29,7 +29,7 @@ final class EmbeddedFlowCollectionViewCell: UICollectionViewCell {
 
     override func layoutSubviews() {
         super.layoutSubviews()
-        collectionView.frame = contentView.frame
+        collectionView.frame = contentView.bounds
     }
 
     override func prepareForReuse() {
