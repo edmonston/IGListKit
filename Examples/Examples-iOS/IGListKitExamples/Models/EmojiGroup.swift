@@ -24,8 +24,10 @@ final class EmojiGroup {
         self.emoji = emoji
     }
     
+    // swiftlint:disable identifier_name
     static let all: [EmojiGroup] = [.places, .nature, .people, .symbols, .foods, .objects, .flags, .activity]
-
+    // swiftlint:enable identifier_name
+    
     static let places = EmojiGroup(name: "Places", emoji: [
         "\u{1f697}", "\u{1f695}", "\u{1f699}", "\u{1f68c}", "\u{1f68e}", "\u{1f3ce}", "\u{1f693}", "\u{1f691}", "\u{1f692}", "\u{1f690}", "\u{1f69a}", "\u{1f69b}", "\u{1f69c}", "\u{1f3cd}", "\u{1f6b2}", "\u{1f6a8}", "\u{1f694}", "\u{1f68d}", "\u{1f698}", "\u{1f696}", "\u{1f6a1}", "\u{1f6a0}", "\u{1f69f}", "\u{1f683}", "\u{1f68b}", "\u{1f69d}", "\u{1f684}", "\u{1f685}", "\u{1f688}", "\u{1f69e}", "\u{1f682}", "\u{1f686}", "\u{1f687}", "\u{1f68a}", "\u{1f689}", "\u{1f681}", "\u{1f6e9}", "\u{2708}\u{fe0f}", "\u{1f6eb}", "\u{1f6ec}", "\u{26f5}\u{fe0f}", "\u{1f6e5}", "\u{1f6a4}", "\u{26f4}", "\u{1f6f3}", "\u{1f680}", "\u{1f6f0}", "\u{1f4ba}", "\u{2693}\u{fe0f}", "\u{1f6a7}", "\u{26fd}\u{fe0f}", "\u{1f68f}", "\u{1f6a6}", "\u{1f6a5}", "\u{1f5fa}", "\u{1f6a2}", "\u{1f3a1}", "\u{1f3a2}", "\u{1f3a0}", "\u{1f3d7}", "\u{1f301}", "\u{1f5fc}", "\u{1f3ed}", "\u{26f2}\u{fe0f}", "\u{1f391}", "\u{26f0}", "\u{1f3d4}", "\u{1f5fb}", "\u{1f30b}", "\u{1f5fe}", "\u{1f3d5}", "\u{26fa}\u{fe0f}", "\u{1f3de}", "\u{1f6e3}", "\u{1f6e4}", "\u{1f305}", "\u{1f304}", "\u{1f3dc}", "\u{1f3d6}", "\u{1f3dd}", "\u{1f307}", "\u{1f306}", "\u{1f3d9}", "\u{1f303}", "\u{1f309}", "\u{1f30c}", "\u{1f320}", "\u{1f387}", "\u{1f386}", "\u{1f308}", "\u{1f3d8}", "\u{1f3f0}", "\u{1f3ef}", "\u{1f3df}", "\u{1f5fd}", "\u{1f3e0}", "\u{1f3e1}", "\u{1f3da}", "\u{1f3e2}", "\u{1f3ec}", "\u{1f3e3}", "\u{1f3e4}", "\u{1f3e5}", "\u{1f3e6}", "\u{1f3e8}", "\u{1f3ea}", "\u{1f3eb}", "\u{1f3e9}", "\u{1f492}", "\u{1f3db}", "\u{26ea}\u{fe0f}", "\u{1f54c}", "\u{1f54d}", "\u{1f54b}", "\u{26e9}"
         ])
